@@ -7,7 +7,7 @@ import ImageBanner from './ImageBanner';
 const SliderBanner = () => {
   return (
     <div style={{
-      width: "100%",
+      width: "480",
       backgroundColor: "#e5e5e5",
       padding: "20px",
       marginBottom: "-115px"
