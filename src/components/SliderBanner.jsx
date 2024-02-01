@@ -1,15 +1,37 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import images from '../assets/imgs';
+import ImageBanner from './ImageBanner';
 
 const SliderBanner = () => {
   return (
     <div style={{
       width: "100%",
-      height: "45vh",
       backgroundColor: "#e5e5e5",
-      padding: "10px"
+      padding: "20px",
+      marginBottom: "-115px"
     }}>
-      Yo habia ponido una imagen aqui
-    </div>
+      <Swiper
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: true,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Autoplay, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <ImageBanner image={images.laloBanner} alt={"super lalo"} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ImageBanner image={images.jobBanner} alt={"fest of job"} />
+        </SwiperSlide>
+      </Swiper>
+    </div >
   )
 }
 
