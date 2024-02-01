@@ -2,7 +2,7 @@ import Background from './components/Background';
 import SliderBanner from './components/SliderBanner';
 function App() {
   const style = {
-    width: "320px",
+    width: "480px",
     marginRight: "auto",
     marginLeft: "auto",
     position: "relative"
