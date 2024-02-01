@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 function App() {
   const style = {
-    width: "100vw",
+    width: "480px",
     marginRight: "auto",
     marginLeft: "auto",
     position: "relative"
