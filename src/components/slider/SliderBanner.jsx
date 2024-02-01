@@ -1,7 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import images from '../assets/imgs';
+import images from '../../assets/imgs';
 import ImageBanner from './ImageBanner';
 
 const SliderBanner = () => {
@@ -10,7 +10,7 @@ const SliderBanner = () => {
       width: "480",
       backgroundColor: "#e5e5e5",
       padding: "20px",
-      marginBottom: "-115px"
+      marginBottom: "-80px"
     }}>
       <Swiper
         centeredSlides={true}
