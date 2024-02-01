@@ -1,8 +1,8 @@
-import Background from './components/Background';
-import SliderBanner from './components/SliderBanner';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import Background from './components/Background';
+import SliderBanner from './components/Slider/SliderBanner';
 function App() {
   const style = {
     width: "480px",
