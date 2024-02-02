@@ -1,6 +1,9 @@
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import "./assets/fonts/KGMidnightMemories.ttf"
+import "./assets/fonts/Oswald-VariableFont_wght.ttf"
+
 import Background from './components/Background';
 import SliderBanner from './components/Slider/SliderBanner';
 function App() {
