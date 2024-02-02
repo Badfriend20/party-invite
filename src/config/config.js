@@ -6,4 +6,6 @@ export const MessageTypes = {
     invite: "presenta invitacion"
 }
 
-export const adjustment = 0;
+export const Adjustment = 0;
+
+export const DATE_TARGET = new Date('2024-02-01T20:00:00');
