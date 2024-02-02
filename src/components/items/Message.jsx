@@ -26,7 +26,7 @@ const Message = ({ position, type, children }) => {
 
     return (
         <div style={styles[currentType]}>
-            <PositioningWrapper position={position}>
+            <PositioningWrapper position={position} fontFamily={"Oswald"}>
                 {children}
             </PositioningWrapper>
         </div>

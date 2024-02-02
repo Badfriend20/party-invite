@@ -1,11 +1,12 @@
 import React from 'react'
-import { adjustment } from '../../config/config'
+import { Adjustment } from '../../config/config'
 
-const PositioningWrapper = ({ children, position }) => {
+const PositioningWrapper = ({ children, position, fontFamily }) => {
     const style = {
         position: "absolute",
-        top: position.top + adjustment,
-        left: position.left
+        top: position.top + Adjustment,
+        left: position.left,
+        fontFamily
     }
     return (
         <div style={style}>{children}</div>

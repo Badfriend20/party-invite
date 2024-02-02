@@ -1,10 +1,9 @@
 import React from 'react'
 import PositioningWrapper from '../wrappers/PositioningWrapper'
 
-const Number = ({ number, position }) => {
-    //Aca se debe agregar el modificador del Number 
+const Number = ({ number, position }) => {    
     return (
-        <PositioningWrapper position={position}>{number}</PositioningWrapper>
+        <PositioningWrapper position={position} fontFamily={"MidnightMemories"}>{number}</PositioningWrapper>
     )
 }
 
