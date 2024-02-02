@@ -9,14 +9,14 @@ const YouLose = () => {
                 position={{ left: 235, top: 1822 }}
                 type={MessageTypes.checkListL}
             >
-                No te desconectes, vomites o hagas <br/>
+                No te desconectes, gomites o hagas <br/>
                 desfiguros, nos cancelan la fiesta.
             </Message>
             <Message
                 position={{ left: 235, top: 1865 }}
                 type={MessageTypes.checkListL}
             >
-                No descuidar el mobiliriario de la terraza. <br/>
+                No descuidar el mobiliario de la terraza, <br/>
                 incluyendo los baños.
 
             </Message>
