@@ -18,15 +18,10 @@ const IntroductionCopies = () => {
                 DOBLE
             </Message>
             <Message
-                position={{ left: 20, top: 1160 }}
+                position={{ left: 20, top: 1192 }}
                 type={MessageTypes.initialText}
             >
-                Aquí tienes unas
-            </Message>
-            <Message
-                position={{ left: 20, top: 1180 }}
-                type={MessageTypes.initialText}
-            >
+                Aquí tienes unas <br/>
                 sugerencias...
             </Message>
         </>

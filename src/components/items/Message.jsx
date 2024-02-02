@@ -8,8 +8,10 @@ const Message = ({ position, type, children }) => {
     //Dependiendo el valor de currentType se aplican estilos diferentes
     const styles = {
         address: {
-            color: "red",
-            "font-family": 'Oswald'
+            "font-size": "28px",
+            "text-align": "center",
+            "color": "white",
+            "font-family": "Oswald",
         },
         checkListW: {
             color: "#3d3d3d",
@@ -24,8 +26,10 @@ const Message = ({ position, type, children }) => {
             "line-height": "22px"
         },
         invite: {
-            color: "blue",
-            "font-family": 'Oswald'
+            color: "#052c42",
+            "font-family": 'Oswald',
+            "font-weight": "bold",
+            "font-size": "20px"
         },
         initialText: {
             color: "#dc5a0e",

@@ -18,7 +18,7 @@ const Background = () => {
             <YouWin />
             <YouLose />
             <Address />
-            <Message position={{ left: 250, top: 2580 }} type={MessageTypes.invite}>
+            <Message position={{ left: 235, top: 2623 }} type={MessageTypes.invite}>
                 PRESENTA ESTA INVITACIÓN
                 EN LA ENTRADA DEL EVENTO
             </Message>
