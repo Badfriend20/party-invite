@@ -8,25 +8,47 @@ const Message = ({ position, type, children }) => {
     //Dependiendo el valor de currentType se aplican estilos diferentes
     const styles = {
         address: {
-            color: "red"
+            color: "red",
+            "font-family": 'Oswald'
         },
-        checkList: {
-            color: "green"
+        checkListW: {
+            color: "#3d3d3d",
+            "font-size": "14px",
+            "font-family": 'MidnightMemories',
+            "line-height": "19px"
+        },
+        checkListL: {
+            color: "#3d3d3d",
+            "font-size": "14px",
+            "font-family": 'MidnightMemories',
+            "line-height": "22px"
         },
         invite: {
-            color: "blue"
+            color: "blue",
+            "font-family": 'Oswald'
         },
         initialText: {
-            color: "orange"
+            color: "#dc5a0e",
+            "font-family": 'Oswald',
+            "font-size": "29px"
         },
         doble: {
-            color: "black"
+            color: "#dc5a0e",
+            "font-family": 'Oswald',
+            "font-size": "35px",
+            "font-weight": "bold"
+        },
+        clock: {
+            color: "#052c42",
+            "font-family": 'Oswald',
+            "font-size": "55px",
+            "font-weight": "bold"
         }
     }
 
     return (
         <div style={styles[currentType]}>
-            <PositioningWrapper position={position} fontFamily={"Oswald"}>
+            <PositioningWrapper position={position}>
                 {children}
             </PositioningWrapper>
         </div>

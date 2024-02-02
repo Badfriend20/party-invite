@@ -54,10 +54,10 @@ const Countdown = () => {
     return (
         <>
 
-            <DateGroups positions={[{ left: 85, top: 935 }, { left: 173, top: 935 }]}>{counter.REMAINING_DAYS}</DateGroups>
-            <DateGroups positions={[{ left: 290, top: 935 }, { left: 375, top: 935 }]}>{counter.REMAINING_HOURS}</DateGroups>
-            <DateGroups positions={[{ left: 85, top: 1052 }, { left: 173, top: 1052 }]}>{counter.REMAINING_MINUTES}</DateGroups>
-            <DateGroups positions={[{ left: 290, top: 1052 }, { left: 375, top: 1052 }]}>{counter.REMAINING_SECONDS}</DateGroups>
+            <DateGroups positions={[{ left: 75, top: 941 }, { left: 162, top: 941 }]}>{counter.REMAINING_DAYS}</DateGroups>
+            <DateGroups positions={[{ left: 279, top: 941 }, { left: 365, top: 941 }]}>{counter.REMAINING_HOURS}</DateGroups>
+            <DateGroups positions={[{ left: 75, top: 1058 }, { left: 162, top: 1058 }]}>{counter.REMAINING_MINUTES}</DateGroups>
+            <DateGroups positions={[{ left: 279, top: 1058 }, { left: 365, top: 1058 }]}>{counter.REMAINING_SECONDS}</DateGroups>
 
         </>
     )

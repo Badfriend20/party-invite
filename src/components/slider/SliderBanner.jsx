@@ -10,7 +10,7 @@ const SliderBanner = () => {
       width: "480",
       backgroundColor: "#e5e5e5",
       padding: "20px",
-      marginBottom: "-80px"
+      marginBottom: "-40px"
     }}>
       <Swiper
         centeredSlides={true}

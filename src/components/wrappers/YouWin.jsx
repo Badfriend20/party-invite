@@ -6,31 +6,31 @@ const YouWin = () => {
     return (
         <>
             <Message
-                position={{ left: 100, top: 1420 }}
-                type={MessageTypes.checkList}
+                position={{ left: 100, top: 1474 }}
+                type={MessageTypes.checkListW}
             >
-                Llegar a tiempo, la fiesta comienza
+                Llegar a tiempo, la fiesta comienza <br/>
                 8:00 pm y termina 1:00 am.
             </Message>
             <Message
-                position={{ left: 100, top: 1460 }}
-                type={MessageTypes.checkList}
+                position={{ left: 100, top: 1512 }}
+                type={MessageTypes.checkListW}
             >
-                Procura no salir a la calle, pues no
+                Procura no salir a la calle, pues no <br/>
                 hay tienditas cerca.
             </Message>
             <Message
-                position={{ left: 100, top: 1506 }}
-                type={MessageTypes.checkList}
+                position={{ left: 100, top: 1550 }}
+                type={MessageTypes.checkListW}
             >
-                Lleva lo que desees tomar para toda
+                Lleva lo que desees tomar para toda <br/>
                 la noche.
             </Message>
             <Message
-                position={{ left: 100, top: 1540 }}
-                type={MessageTypes.checkList}
+                position={{ left: 100, top: 1589 }}
+                type={MessageTypes.checkListW}
             >
-                Puedes estacionar en la calle,
+                Puedes estacionar en la calle, <br/>
                 hay cámaras de seguridad.
             </Message></>
     )

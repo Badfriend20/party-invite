@@ -6,13 +6,13 @@ const IntroductionCopies = () => {
     return (
         <>
             <Message
-                position={{ left: 20, top: 830 }}
+                position={{ left: 61, top: 821 }}
                 type={MessageTypes.initialText}
             >
                 ¡Se parte de nuestra celebración!
             </Message>
             <Message
-                position={{ left: 20, top: 850 }}
+                position={{ left: 191, top: 867 }}
                 type={MessageTypes.doble}
             >
                 DOBLE

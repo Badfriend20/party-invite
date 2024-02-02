@@ -6,33 +6,33 @@ const YouLose = () => {
     return (
         <>
             <Message
-                position={{ left: 235, top: 1740 }}
-                type={MessageTypes.checkList}
+                position={{ left: 235, top: 1822 }}
+                type={MessageTypes.checkListL}
             >
-                No te desconectes, vomites o hagas
+                No te desconectes, vomites o hagas <br/>
                 desfiguros, nos cancelan la fiesta.
             </Message>
             <Message
-                position={{ left: 235, top: 1795 }}
-                type={MessageTypes.checkList}
+                position={{ left: 235, top: 1865 }}
+                type={MessageTypes.checkListL}
             >
-                No descuidar el mobiliriario de la terraza.
+                No descuidar el mobiliriario de la terraza. <br/>
                 incluyendo los baños.
 
             </Message>
             <Message
-                position={{ left: 235, top: 1850 }}
-                type={MessageTypes.checkList}
+                position={{ left: 235, top: 1908 }}
+                type={MessageTypes.checkListL}
             >
-                Esta prohibido consumir sustancias
+                Esta prohibido consumir sustancias <br/>
                 diferentes al tabaco y alcohol.
 
             </Message>
             <Message
-                position={{ left: 235, top: 1905 }}
-                type={MessageTypes.checkList}
+                position={{ left: 235, top: 1952 }}
+                type={MessageTypes.checkListL}
             >
-                Cuida no ser grosero con el personal
+                Cuida no ser grosero con el personal <br/>
                 del lugar (DJ y mesera).
             </Message>
 

@@ -1,11 +1,16 @@
 export const MessageTypes = {
     doble: "doble",
     initialText: "texto inicial",
-    checkList: "lista win lose",
+    checkListW: "lista win",
+    checkListL: "lista lost",
     address: "direccion",
-    invite: "presenta invitacion"
+    invite: "presenta invitacion",
+}
+
+export const NumberTypes = {
+    clock: "cuenta regresiva"
 }
 
 export const Adjustment = 0;
 
-export const DATE_TARGET = new Date('2024-02-01T20:00:00');
+export const DATE_TARGET = new Date('2024-03-09T20:00:00');
