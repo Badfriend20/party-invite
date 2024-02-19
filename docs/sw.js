@@ -1,0 +1,5 @@
+importScripts(
+    'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
+);
+
+workbox.precaching.precacheAndRoute([{"revision":"5871d715df288083065453d93df0f0c6","url":"assets/background-7Woe69Ju.svg"},{"revision":"7d4b20ba7a3c5a9b765ecef8d189dba2","url":"assets/boton-WBGdwJiH.svg"},{"revision":"944a27991ff2a629e4015c6b49513d4e","url":"assets/index-7ecBK78d.js"},{"revision":"97340041053e353c5f3d3b8b1ce4098e","url":"assets/index-bd6cCnKM.css"},{"revision":"35678eca23008e46f0f9f0f142c02436","url":"assets/job-4Q-vOKKs.svg"},{"revision":"f37cd17d7ed2443b1c5a2667835ddd28","url":"assets/KGMidnightMemories-AEDrti9G.ttf"},{"revision":"a1ed47ede133530859b240f9a18bf52c","url":"assets/lalo-Tpqpu7_6.svg"},{"revision":"a6e5446a7c5789aabc9b37eaaf72134d","url":"assets/Oswald-VariableFont_wght-4JitQCio.ttf"},{"revision":"8e3a10e157f75ada21ab742c022d5430","url":"favicon.svg"},{"revision":"13bbf9c20c4130e646778f98017cbefb","url":"index.html"},{"revision":"8e3a10e157f75ada21ab742c022d5430","url":"vite.svg"}]);
