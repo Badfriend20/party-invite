@@ -3,7 +3,10 @@ importScripts(
 );
 
 workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
+workbox.core.skipWaiting();
 
+// Reclamar inmediatamente todos los clientes bajo el control del nuevo Service Worker
+workbox.core.clientsClaim();
 self.addEventListener('beforeinstallprompt', (event) => {
     // Cancelamos el evento para evitar que se muestre el prompt de instalación automáticamente
     event.preventDefault();
