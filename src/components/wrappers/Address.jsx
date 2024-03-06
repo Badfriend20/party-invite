@@ -10,7 +10,7 @@ const Address = () => {
                 position={{ left: 103, top: 2098 }}
                 type={MessageTypes.address}
             >
-                Lago Texcoco 16 Anáhuac, <br></br>
+                Lago Texcoco 16-A Anáhuac, <br></br>
                 Miguel Hidalgo, CDMX
             </Message>
             <AddressButton position={{left:115, top: 2349}}/>
